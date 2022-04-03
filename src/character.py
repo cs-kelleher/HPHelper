@@ -7,5 +7,5 @@ class Character:
     hp: int
     level: int = 1
 
-    def print(self):
-        return f'Name: {self.name}\nLevel: {self.level}\nHP: {self.hp}'
+    def to_string(self):
+        return f'*Name:*  {self.name}\n*Level:*  {self.level}\n*HP:*  {self.hp}'
